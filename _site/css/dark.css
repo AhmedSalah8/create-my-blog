@@ -1,7 +1,12 @@
 :root {
-  --primary-color: #fff;
-  --secondary-color: #eee;
-  color: var(--primary-color);
+  --primary-color: #3184c4;
+  --secondary-color: #154b75;
+  --white-black-color: #f1f5f8;
+  --sec-white-black-color: #8e8f8d;
+  --background-primary: #0b1f2d;
+  --background-secondary: #000000;
+
+  color: var(--white-black-color);
 }
 
 body {
@@ -11,7 +16,7 @@ body {
 .button {
   background-color: #333;
   border-color: #333;
-  color: var(--primary-color);
+  color: var(--white-black-color);
 }
 
 .button:hover {
